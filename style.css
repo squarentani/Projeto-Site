@@ -1,0 +1,41 @@
+
+
+    h1{
+    text-align: center;letter-spacing: 3px; word-spacing: 5px;font-size: 2.5em;/ * 40px/16=2.5em */}
+
+
+
+  li{
+    display: inline;
+  }
+
+
+nav{
+  padding-left: 10%;
+
+}
+.main li {
+display:inline;
+position: relative;
+
+}
+.submenu li {
+  display: block;
+}
+
+.submenu {display:none;
+  position: absolute;
+  top: 2em;
+  left: 0;
+}
+.main li:hover .submenu {
+  display: inline-block;
+}
+
+a {
+  color: rgb(255, 0, 0);c3145;
+  text-decoration: none;
+  padding: 1em;
+  transition: color ease 0.3s;
+  line-height: 1;
+}
